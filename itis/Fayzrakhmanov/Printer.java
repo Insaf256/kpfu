@@ -1,5 +1,5 @@
 public class Printer {
-	public boolean isOn = false;
+	public boolean isOn;
 	public String color;
 	public double contrast;
 
@@ -11,7 +11,7 @@ public class Printer {
 
 	}
 
-	public void onOff (boolean isOn) {
+	public void onOff () {
 		this.isOn = !isOn;
 	}
 }
